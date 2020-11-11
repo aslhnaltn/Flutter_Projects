@@ -9,17 +9,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.deepOrange.shade400,
         body: SafeArea(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
               radius: 50.0,
-              backgroundImage: AssetImage('images/angela.jpg'),
+              backgroundImage: AssetImage('images/Azula.png'),
             ),
             Text(
-              'Angela Yu',
+              'Aslıhan Altın',
               style: TextStyle(
                 fontFamily: 'Pacifico',
                 fontSize: 40.0,
@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    '+44 123 456 789',
+                    '+90 539 736 99 00',
                     style: TextStyle(
                       color: Colors.teal.shade900,
                       fontFamily: 'Source Sans Pro',
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'angela@email.com',
+                    'asli95altin@gmail.com',
                     style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.teal.shade900,
